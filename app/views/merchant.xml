@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container" barColor="#75d0cb" id="win" title="Merchant" navBarHidden="false">
+	<ActionBar platform="android" displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" />
+	<!--<ScrollView class="wfill hfill vert conthsize contwfill">
+    	
+ </ScrollView>-->
+	 <WebView url="client.html" id="socket" class="wfill" height="0"></WebView>
+	 <ImageView zIndex="9" image="/images/geonn-namecard.png" id="logo" class="hsize" width="150"></ImageView>
+    </Window>
+</Alloy>

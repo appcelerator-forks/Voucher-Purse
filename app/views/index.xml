@@ -1,0 +1,11 @@
+<Alloy>
+	<Window title="Framwork" color="#ffffff" id="win">
+		<ScrollView class="wfill hfill vert" contentHeight="Ti.UI.SIZE" contentWidth="Ti.UI.FILL" backgroundImage="/images/home_background.jpg">
+			<ImageView image="/images/logo.png" top="80" width="50%" />
+			<TextField id="username" hintText="Username" top="80"></TextField>
+			<TextField id="password" hintText="Password" passwordMask="true"></TextField>
+			<Button onClick="do_login" class="button" title="Login"></Button>
+			<Button onClick="do_signup" class="button" backgroundColor="#5375BD" title="Register"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

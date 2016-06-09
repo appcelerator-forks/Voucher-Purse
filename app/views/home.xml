@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="win" theme="Theme.NoActionBar" title="Home" navBarHidden="true" fullscreen="false">
+    <View class='wsize wfill vert' top="40">
+    	<ImageView image="/images/logo.png" width="50%"/>
+    	<Button class="button" onClick="navToPurse">Customer Purse</Button> 
+    	<Button class="button" onClick="navToMerchant">Merchant Scanner</Button> 
+    	<Button class="button" onClick="doLogout">Logout</Button> 	
+    </View>
+    </Window>
+</Alloy>
